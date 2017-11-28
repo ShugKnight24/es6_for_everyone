@@ -12,24 +12,6 @@
       <p class="social">@wesbos</p>
     </div>
   </div>
-
-  <script>
-    const box = document.querySelector('.box');
-    box.addEventListener('click', function() {
-      let first = 'opening';
-      let second = 'open';
-
-      if(this.classList.contains(first)) {
-        [first, second] = [second, first];
-      }
-
-      this.classList.toggle(first);
-      setTimeout(() => {
-        console.log(this);
-        this.classList.toggle(second);
-      }, 500);
-    });
-  </script>
-
+<script src="js/script.js"></script>
 </body>
 </html>
