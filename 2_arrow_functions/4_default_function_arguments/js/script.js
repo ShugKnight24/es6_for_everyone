@@ -2,7 +2,7 @@
 
 // You can set default values for parameters in ES6
 function calculateBill(total, tax = 0.13, tip = 0.15) {
-  return total + (total * tax) + (total * tip);
+	return total + (total * tax) + (total * tip);
 }
 
 // const totalBill = calculateBill(100)
