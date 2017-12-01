@@ -4,6 +4,6 @@
 
 I will update this README as I complete the different lessons within the course.
 
-1. New Variables - Finished 11/26/2017
+1. [New Variables](1_new_variables) - Finished 11/26/2017
 
-2. Arrow Functions - Finished 11/30/2017
+2. [Arrow Functions](2_arrow_functions) - Finished 11/30/2017
