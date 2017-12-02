@@ -4,6 +4,9 @@
 
 const listItems = document.querySelectorAll('li');
 
+// Wes selects the elements by '[data-time]' attribute and pushes them all into an array using `Array.from()`
+	// I can see how both of these are superior to the manner in which I selected all the <li> and used a `forEach()`
+
 // console.log({listItems});
 
 const listItemsArray = [];
@@ -21,7 +24,7 @@ const filteredList = listItemsArray.filter(listItem => listItem.textContent.incl
 // console.log({filteredList});
 
 // map down to a list of time strings
-const mappedList =	filteredList.map(listItem => listItem.dataset.time);
+const mappedList = filteredList.map(listItem => listItem.dataset.time);
 
 // console.log({mappedList});
 
