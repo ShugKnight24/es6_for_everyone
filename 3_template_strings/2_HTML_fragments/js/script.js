@@ -6,6 +6,7 @@ const person = {
 	city: 'Hamilton',
 	bio: 'Wes is a really cool guy that loves to teach web development!',
 };
+
 const markup = `
 	<div class="person">
 		<h2>
@@ -16,5 +17,10 @@ const markup = `
 		<p class="bio">${person.bio}</p>
 	</div>
 `;
-console.log(markup);
+
+console.log({markup});
 document.body.innerHTML = markup;
+
+// using template literals makes it a lot cleaner when creating HTML in your JavaScript.
+
+// I am definitely looking forward to refactoring some of my previous code with template strings. It will make the sections I dynamically created HTML so much nicer and easier to read.
