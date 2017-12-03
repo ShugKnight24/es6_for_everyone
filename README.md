@@ -7,3 +7,5 @@ I will update this README as I complete the different lessons within the course.
 1. [New Variables](1_new_variables) - Finished 11/26/2017
 
 2. [Arrow Functions](2_arrow_functions) - Finished 11/30/2017
+
+3. [Template Strings](3_template_strings) - Finished on 12/3/2017
