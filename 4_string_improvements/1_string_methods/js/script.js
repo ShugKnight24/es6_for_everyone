@@ -49,3 +49,7 @@ function leftPad(str, length = 20) {
 console.log(leftPad(make));
 console.log(leftPad(model));
 console.log(leftPad(colour));
+
+console.log(`${'Herro' * 5}`.repeat(10) + ' Batman!');
+
+// Do you get it ?
