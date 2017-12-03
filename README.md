@@ -9,3 +9,5 @@ I will update this README as I complete the different lessons within the course.
 2. [Arrow Functions](2_arrow_functions) - Finished 11/30/2017
 
 3. [Template Strings](3_template_strings) - Finished on 12/3/2017
+
+4. [Additional String Improvements](4_string_improvements) - Finished on 12/3/2017
