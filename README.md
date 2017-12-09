@@ -13,3 +13,5 @@ I will update this README as I complete the different lessons within the course.
 4. [Additional String Improvements](4_string_improvements) - Finished on 12/3/2017
 
 5. [Destructuring](5_destructuring) - Finished on 12/8/17
+
+6. [Iterables and Looping](6_iterables_and_looping) - Finished on 12/9/2017
