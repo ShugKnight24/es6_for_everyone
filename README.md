@@ -11,3 +11,5 @@ I will update this README as I complete the different lessons within the course.
 3. [Template Strings](3_template_strings) - Finished on 12/3/2017
 
 4. [Additional String Improvements](4_string_improvements) - Finished on 12/3/2017
+
+5. [Destructuring](5_destructuring) - Finished on 12/8/17
