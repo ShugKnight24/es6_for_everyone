@@ -44,7 +44,7 @@ function convertCurrency(amount) {
 
 
 // In this final example, you can default the value to a blank object
-// If you call the function without any parameteres, it can use all of the default values
+// If you call the function without any parameters, it can use all of the default values
 function tipCalc({ total = 100, tip = 0.15, tax = 0.13 } = {}) {
 	return total + (tip * total) + (tax * total);
 }
