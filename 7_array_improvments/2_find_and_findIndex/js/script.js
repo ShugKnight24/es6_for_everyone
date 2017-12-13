@@ -1,3 +1,5 @@
+'use strict';
+
 /* eslint-disable */
 // API data from Instagram
 const posts = [
