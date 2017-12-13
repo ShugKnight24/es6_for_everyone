@@ -1,4 +1,5 @@
 /* eslint-disable */
+// API data from Instagram
 const posts = [
 	{
 		"code":"BAcyDyQwcXX",
@@ -169,8 +170,14 @@ const posts = [
 		"display_src":"https://scontent.cdninstagram.com/hphotos-xpt1/t51.2885-15/e35/11326072_550275398458202_1726754023_n.jpg"
 	}
 ];
-const code = 'VBgtGQcSf';
-const post = posts.find(post => post.code === code);
 
+const code = 'VBgtGQcSf';
+
+// `find()` searches the array to match for what you are looking for and will return the item you were searching
+const post = posts.find(post => post.code === code);
+console.log({post});
+
+// Use `findIndex()` when you have what you want, but want to know its position in the array
 const postIndex = posts.findIndex(post => post.code === code);
-console.log(postIndex);
+// returns the index
+console.log({postIndex});
