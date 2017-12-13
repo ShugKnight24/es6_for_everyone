@@ -15,3 +15,5 @@ I will update this README as I complete the different lessons within the course.
 5. [Destructuring](5_destructuring) - Finished on 12/8/17
 
 6. [Iterables and Looping](6_iterables_and_looping) - Finished on 12/9/2017
+
+7. [An Array of Array Improvements](7_array_improvements) - Finished on 12/12/2017
