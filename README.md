@@ -19,3 +19,5 @@ I will update this README as I complete the different lessons within the course.
 7. [An Array of Array Improvements](7_array_improvements) - Finished on 12/12/2017
 
 8. [Say Hello to ...Spread and ...Rest](8_spread_and_rest) - Finished on 12/14/2017
+
+9. [Object Literal Upgrades](9_object_literal_upgrades) - Finished on 12/16/2017
