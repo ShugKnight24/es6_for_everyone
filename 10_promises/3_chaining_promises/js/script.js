@@ -12,6 +12,8 @@ const authors = [
 	{ name: 'Addy Osmani', twitter: '@addyosmani', bio: 'Googler' },
 ];
 
+// posts and authors are supposed to represent two seperate databases you are attempting to interact with
+
 function getPostById(id) {
 	// create a new promise
 	return new Promise((resolve, reject) => {
@@ -19,27 +21,32 @@ function getPostById(id) {
 		setTimeout(() => {
 			// find the post we want
 			const post = posts.find(post => post.id === id);
-			if(post) {
-			resolve(post); // send the post back
+
+			// check if there was a post with that id
+			if (post) {
+				resolve(post); // send the post back
 			} else {
-			reject(Error('No Post Was Found!'));
+				// reject if no post with that id
+				reject(Error('No Post Was Found!'));
 			}
 		}, 200);
 	});
 }
 
+// replace author of the post with the author object
 function hydrateAuthor(post) {
 	// create a new promise
 	return new Promise((resolve, reject) => {
 	// find the author
 		const authorDetails = authors.find(person => person.name === post.author);
 
-		if(authorDetails) {
+		// if there is an author
+		if (authorDetails) {
 			// "hydrate" the post object with the author object
 			post.author = authorDetails;
 			resolve(post);
 		} else {
-			reject(Error('Can not find the author'));
+			reject(Error('Cannot find the author'));
 		}
 	});
 }
