@@ -23,3 +23,5 @@ I will update this README as I complete the different lessons within the course.
 9. [Object Literal Upgrades](9_object_literal_upgrades) - Finished on 12/16/2017
 
 10. [Promises](10_promises) - Finished on 12/27/2017
+
+11. [Symbols](11_symbols) - Finished on 12/30/2017
