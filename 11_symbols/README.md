@@ -1,12 +1,12 @@
 # Symbols
 
-# Lesson 1 - All About Symbols
+##Lesson 1 - All About Symbols
 
 - Symbols are a new type of primitive data found in JavaScript.
 
 - You can store identical data within symbols and prevent name space collisions.
 
-# Final Thoughts
+## Final Thoughts
 
 - I don't quite understand the purpose of symbols, but Wes talked about a few scenarios where they may prove useful.
 
